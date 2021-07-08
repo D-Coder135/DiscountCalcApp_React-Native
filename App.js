@@ -28,7 +28,7 @@ export default class DiscountCalcApp extends React.Component {
           Calculate
         </TouchableOpacity>
 
-        <Text style = {{marginTop: 20, color: this.state.result ? 'green' : 'red'}}>
+        <Text style = {{marginTop: 20, color: this.state.result ? 'green' : 'red', fontWeight: 'bold'}}>
           Final Price After Discount: ₹ {this.state.amount - this.state.result}
         </Text>
 
