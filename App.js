@@ -42,6 +42,8 @@ const styles = StyleSheet.create({
     backgroundColor: 'white', padding: 15, marginTop: 20, marginBottom: 20, borderRadius: 10, outline: 'none', textAlign: 'center', fontSize: 20
   },
   bottomButton: {
-    
+    justifyContent: 'center',
+    alignItems: 'center',
+    margin: 20,
   }
 });
