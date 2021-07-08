@@ -23,7 +23,7 @@ export default class DiscountCalcApp extends React.Component {
           Calculate
         </TouchableOpacity>
 
-        <Text>
+        <Text style = {{marginTop: 20}}>
           Final Price After Discount
         </Text>
       </View>
