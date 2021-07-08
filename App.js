@@ -29,7 +29,7 @@ export default class DiscountCalcApp extends React.Component {
         </TouchableOpacity>
 
         <Text style = {{marginTop: 20}}>
-          Final Price After Discount: {this.state.result}
+          Final Price After Discount: {this.state.amount - this.state.result}
         </Text>
 
         {/* <Text>
