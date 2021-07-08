@@ -19,7 +19,8 @@ export default class DiscountCalcApp extends React.Component {
 
       <View style = {styles.inputBox}>
         <Text style = {{fontSize: 18}}>Discount Percentage(%).</Text>
-        <TextInput style = {styles.inputText} />
+        <TextInput style = {styles.inputText} 
+        onChangeText = {(value)=> {this.setState({discount: value})}} />
       </View>
 
       <View style = {styles.bottomButton}>
