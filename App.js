@@ -24,7 +24,7 @@ export default class DiscountCalcApp extends React.Component {
       </View>
 
       <View style = {styles.bottomButton}>
-        <TouchableOpacity style = {styles.calculateButton} onPress = {()=> {this.setState({result: amount * discount / 100})}}>
+        <TouchableOpacity style = {styles.calculateButton} onPress = {()=> {this.setState({result: this.state.amount * this.state.discount / 100})}}>
           Calculate
         </TouchableOpacity>
 
