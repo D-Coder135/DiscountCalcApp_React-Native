@@ -24,7 +24,7 @@ export default class DiscountCalcApp extends React.Component {
       </View>
 
       <View style = {styles.bottomButton}>
-        <TouchableOpacity style = {styles.calculateButton}>
+        <TouchableOpacity style = {styles.calculateButton} onPress = {()=> {}}>
           Calculate
         </TouchableOpacity>
 
