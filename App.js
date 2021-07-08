@@ -40,5 +40,8 @@ const styles = StyleSheet.create({
   },
   inputText: {
     backgroundColor: 'white', padding: 15, marginTop: 20, marginBottom: 20, borderRadius: 10, outline: 'none', textAlign: 'center', fontSize: 20
+  },
+  bottomButton: {
+    
   }
 });
