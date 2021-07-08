@@ -25,6 +25,6 @@ const styles = StyleSheet.create({
     // justifyContent: 'center',
   },
   inputBox : {
-    
+    marginHorizontal: 30
   }
 });
