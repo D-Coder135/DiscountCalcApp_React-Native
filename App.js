@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View, TextInput } from 'react-native';
+import { StyleSheet, Text, View, TextInput, TouchableOpacity } from 'react-native';
 
 export default class DiscountCalcApp extends React.Component {
   render() {
@@ -19,7 +19,7 @@ export default class DiscountCalcApp extends React.Component {
       </View>
 
       <View>
-        
+
       </View>
     </View>
     );
