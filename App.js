@@ -26,5 +26,8 @@ const styles = StyleSheet.create({
   },
   inputBox : {
     marginHorizontal: 30
+  },
+  inputText: {
+    
   }
 });
