@@ -9,7 +9,7 @@ export default class DiscountCalcApp extends React.Component {
       <Text style = {{margin: 30, fontSize: 22, fontWeight: 'bold', color: 'black', textAlign: 'center'}}> Discount Calculator</Text>
 
       <View style = {styles.inputBox}>
-        <Text>Amount In ₹.</Text>
+        <Text style = {{fontSize: 18}}>Amount In ₹.</Text>
         <TextInput style = {styles.inputText} />
       </View>
     </View>
