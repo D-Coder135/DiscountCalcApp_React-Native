@@ -23,7 +23,9 @@ export default class DiscountCalcApp extends React.Component {
           Calculate
         </TouchableOpacity>
 
-        <Text></Text>
+        <Text>
+          Final Price After Discount
+        </Text>
       </View>
     </View>
     );
