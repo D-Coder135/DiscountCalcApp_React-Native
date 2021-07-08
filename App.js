@@ -10,7 +10,7 @@ export default class DiscountCalcApp extends React.Component {
 
       <View style = {styles.inputBox}>
         <Text>Amount In ₹.</Text>
-        <TextInput />
+        <TextInput style = {styles.inputText} />
       </View>
     </View>
     );
