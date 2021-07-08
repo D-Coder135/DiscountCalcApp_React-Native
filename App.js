@@ -4,7 +4,7 @@ import { StyleSheet, Text, View, TextInput, TouchableOpacity } from 'react-nativ
 
 export default class DiscountCalcApp extends React.Component {
 
-  state = {};
+  state = {amount: 0, discount: 0, result: 0};
 
   render() {
     return (
