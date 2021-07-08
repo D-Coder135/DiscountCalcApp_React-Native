@@ -33,6 +33,6 @@ const styles = StyleSheet.create({
     marginHorizontal: 30
   },
   inputText: {
-    backgroundColor: 'white', padding: 20, marginTop: 20, marginBottom: 20, borderRadius: 10, outline: 'none', textAlign: 'center', fontSize: 20
+    backgroundColor: 'white', padding: 15, marginTop: 20, marginBottom: 20, borderRadius: 10, outline: 'none', textAlign: 'center', fontSize: 20
   }
 });
