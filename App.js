@@ -8,7 +8,9 @@ export default class DiscountCalcApp extends React.Component {
     <View style = {styles.container}>
       <Text style = {{margin: 30, fontSize: 22, fontWeight: 'bold', color: 'black'}}> Discount Calculator</Text>
 
-      <View></View>
+      <View>
+        <Text></Text>
+      </View>
     </View>
     );
   }
