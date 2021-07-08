@@ -17,6 +17,10 @@ export default class DiscountCalcApp extends React.Component {
         <Text style = {{fontSize: 18}}>Discount Percentage(%).</Text>
         <TextInput style = {styles.inputText} />
       </View>
+
+      <View>
+        
+      </View>
     </View>
     );
   }
