@@ -31,7 +31,7 @@ export default class DiscountCalcApp extends React.Component {
         </Text>
 
         <Text>
-          ""
+          {this.state.result}
         </Text>
       </View>
     </View>
