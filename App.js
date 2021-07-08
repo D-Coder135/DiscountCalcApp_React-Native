@@ -26,6 +26,10 @@ export default class DiscountCalcApp extends React.Component {
         <Text style = {{marginTop: 20}}>
           Final Price After Discount
         </Text>
+
+        <Text>
+          
+        </Text>
       </View>
     </View>
     );
