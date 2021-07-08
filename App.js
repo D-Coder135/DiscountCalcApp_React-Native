@@ -3,6 +3,9 @@ import React from 'react';
 import { StyleSheet, Text, View, TextInput, TouchableOpacity } from 'react-native';
 
 export default class DiscountCalcApp extends React.Component {
+
+  state = {};
+
   render() {
     return (
     <View style = {styles.container}>
