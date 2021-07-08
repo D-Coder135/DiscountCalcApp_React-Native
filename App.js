@@ -4,7 +4,9 @@ import { StyleSheet, Text, View } from 'react-native';
 
 export default class DiscountCalcApp extends React.Component {
   render() {
+    return (
     <View style = {styles.container}></View>
+    );
   }
 }
 
