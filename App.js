@@ -19,7 +19,7 @@ export default class DiscountCalcApp extends React.Component {
       </View>
 
       <View>
-
+        <TouchableOpacity></TouchableOpacity>
       </View>
     </View>
     );
