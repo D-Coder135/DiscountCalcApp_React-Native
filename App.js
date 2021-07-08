@@ -47,6 +47,6 @@ const styles = StyleSheet.create({
     margin: 20,
   },
   calculateButton: {
-    
+    backgroundColor: 'blue', padding: 15, borderRadius: 10, color: 'white'
   }
 });
